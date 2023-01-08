@@ -1,0 +1,189 @@
+*{
+   margin: 0;
+   padding: 0;
+  
+}
+body{
+   background-image: url(./imges/bbbb.jpg);
+
+ }
+ 
+.bode{
+    width:100%;
+    background-image: url(./imges/bg.jpg);
+    background-size: cover;
+    height: 150px;
+}
+/*////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////*/
+.panda1{
+    margin-top: 30px;
+    background-image: url(./imges/el.png);
+    width:155px ;
+    height:130px;
+    animation: walk  1s steps(9) 5 ,
+               forward 5s ease-in-out;
+   animation-fill-mode: forwards;                     
+}
+
+@keyframes walk{
+ 0%{
+    background-image: 0px;
+ }
+ 100%{
+    background-position: 1400px;
+ }
+}
+@keyframes forward {
+   0%{
+      transform: translateX(0px) ;
+   }
+   100%{
+       transform: translateX(1310px) ;
+   }
+  }
+
+/*/////////////////////////////////////////////////////////////////////////////////////////////////////////////////////*/
+   .panda2{
+      margin-top: 30px;
+      background-image: url(./imges/el2.png);
+      width:155px ;
+      height:130px;
+      animation: walk  1s steps(9) 5 ,
+                 forward 5s ease-in-out;
+      animation-delay: 5s;
+      animation-direction: reverse;
+      animation-fill-mode: backwards;
+  }
+  
+  @keyframes walk{
+   0%{
+      background-image: 0px;
+   }
+   100%{
+      background-position: 1400px;
+   }
+  }
+  @keyframes forward {
+      0%{
+         transform: translateX(0px) ;
+      }
+      100%{
+          transform: translateX(1310px) ;
+      }
+     }
+/*////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////*/
+.panda3{
+   margin-top: 30px;
+   background-image: url(./imges/el.png);
+   width:155px ;
+   height:130px;
+   animation: walk  1s steps(9) 5 ,
+              forward 5s ease-in-out ;
+   animation-fill-mode: forwards; 
+   animation-delay: 10s;          
+}
+
+@keyframes walk{
+0%{
+   background-image: 0px;
+}
+100%{
+   background-position: 1400px;
+}
+}
+@keyframes forward {
+   0%{
+      transform: translateX(0px);
+   }
+   100%{
+       transform: translateX(1310px);
+   }
+  }
+/*///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////*/
+  .panda4{
+   margin-top: 30px;
+   background-image: url(./imges/el2.png);
+   width:155px ;
+   height:130px;
+   animation: walk  1s steps(9) 5 ,
+              forward 5s ease-in-out;
+   animation-delay: 15s;
+   animation-direction: reverse;
+   animation-fill-mode: backwards;
+}
+
+@keyframes walk{
+0%{
+   background-image: 0px;
+}
+100%{
+   background-position: 1400px;
+}
+}
+@keyframes forward {
+   0%{
+      transform: translateX(0px);
+   }
+   100%{
+       transform: translatex(1310px);
+   }
+}
+
+/*////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////*/
+.panda5{
+   margin-top: 30px;
+   background-image: url(./imges/el.png);
+   width:155px ;
+   height:130px;
+   animation: walk  1s steps(9) 5 ,
+              forward 5s ease-in-out ;
+   animation-fill-mode: forwards; 
+   animation-delay:20s;          
+}
+
+@keyframes walk{
+0%{
+   background-image: 0px;
+}
+100%{
+   background-position: 1400px;
+}
+}
+@keyframes forward {
+   0%{
+      transform: translateX(0px);
+   }
+   100%{
+       transform: translateX(1310px);
+   }
+  }
+/*/////////////////////////////////////////////////////////////////////////////////////////////////////////////////////*/
+  .panda6{
+   margin-top: 30px;
+   background-image: url(./imges/el2.png);
+   width:155px ;
+   height:130px;
+   animation: walk  1s steps(9) 5 ,
+              forward 5s ease-in-out;
+   animation-delay: 25s;
+   animation-direction: reverse;
+   animation-fill-mode: backwards;
+   
+}
+
+@keyframes walk{
+0%{
+   background-image: 0px;
+}
+100%{
+   background-position: 1400px;
+}
+}
+@keyframes forward {
+   0%{
+      transform: translateX(0px);
+   }
+   100%{
+       transform: translatex(1310px);
+   }
+}
